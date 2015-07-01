@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject knight;
+    public GameObject knight, knight2,knight3,knight4;
 
     private float seconds;
     private float minutes;
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
             case 1:
                 if (Input.GetButtonDown("StartP2") || Input.GetButtonDown("StartP3") || Input.GetButtonDown("StartP4"))
                 {
-                    GameObject go = Instantiate(knight, new Vector3(Players[0].transform.position.x, Players[0].transform.position.y + 2, Players[0].transform.position.z), Players[0].transform.rotation) as GameObject;
+                    GameObject go = Instantiate(knight2, new Vector3(Players[0].transform.position.x, Players[0].transform.position.y + 2, Players[0].transform.position.z), Players[0].transform.rotation) as GameObject;
                     go.GetComponent<Knight>().PlayerID = 2;
                     go.name = "Knight";
                     ReloadUI();
@@ -136,7 +136,7 @@ public class GameManager : MonoBehaviour
             case 2:
                 if (Input.GetButtonDown("StartP3") || Input.GetButtonDown("StartP4"))
                 {
-                    GameObject go = Instantiate(knight, new Vector3(Players[0].transform.position.x, Players[0].transform.position.y + 2, Players[0].transform.position.z), Players[0].transform.rotation) as GameObject;
+                    GameObject go = Instantiate(knight3, new Vector3(Players[0].transform.position.x, Players[0].transform.position.y + 2, Players[0].transform.position.z), Players[0].transform.rotation) as GameObject;
                     go.GetComponent<Knight>().PlayerID = 3;
                     go.name = "Knight";
                     ReloadUI();
@@ -174,7 +174,7 @@ public class GameManager : MonoBehaviour
             case 3:
                 if (Input.GetButtonDown("StartP4"))
                 {
-                    GameObject go = Instantiate(knight, new Vector3(Players[0].transform.position.x, Players[0].transform.position.y + 2, Players[0].transform.position.z), Players[0].transform.rotation) as GameObject;
+                    GameObject go = Instantiate(knight4, new Vector3(Players[0].transform.position.x, Players[0].transform.position.y + 2, Players[0].transform.position.z), Players[0].transform.rotation) as GameObject;
                     go.GetComponent<Knight>().PlayerID = 4;
                     go.name = "Knight";
                     ReloadUI();

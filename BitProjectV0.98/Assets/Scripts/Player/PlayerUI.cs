@@ -111,29 +111,19 @@ public class PlayerUI : MonoBehaviour
     
     private void GetIndicatorSprite()
     {
-        Renderer rend = transform.GetChild(0).transform.GetChild(0).GetComponent<Renderer>();
         switch (knight.PlayerID)
         {
             case 1:
                 playerIndicator.color = Color.red;
-                //transform.GetChild(0).transform.GetChild(0).GetComponent<Material>().SetColor("outline", Color.red);
-                rend.material.shader = Shader.Find("Standard Outlined");
-                rend.material.SetColor("_OutColor", Color.red);
                 break;
             case 2:
                 playerIndicator.color = Color.cyan;
-                rend.material.shader = Shader.Find("Standard Outlined");
-                rend.material.SetColor("_OutColor", Color.cyan);
                 break;
             case 3:
                 playerIndicator.color = Color.green;
-                rend.material.shader = Shader.Find("Standard Outlined");
-                rend.material.SetColor("_OutColor", Color.green);
                 break;
             case 4:
                 playerIndicator.color = Color.yellow;
-                rend.material.shader = Shader.Find("Standard Outlined");
-                rend.material.SetColor("_OutColor", new Color(255,111,0));
                 break;
         }
     }

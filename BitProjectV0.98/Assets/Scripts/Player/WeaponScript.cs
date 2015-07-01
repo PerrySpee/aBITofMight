@@ -47,6 +47,11 @@ public class WeaponScript : MonoBehaviour
                     TrollEnemy trollEnemy = other.GetComponent<TrollEnemy>();
                     trollEnemy.AdjustHealth(damage, force, knightParent);
                     break;
+                case "BossTroll(Clone)":
+
+                    TrollEnemy bossTroll = other.GetComponent<TrollEnemy>();
+                    bossTroll.AdjustHealth(damage, force, knightParent);
+                    break;
             }
 
             if (hitEnemy != null)
