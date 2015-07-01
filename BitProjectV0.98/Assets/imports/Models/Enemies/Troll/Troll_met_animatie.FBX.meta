@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: 79b224a567a0abc488422966f81701ff
+timeCreated: 1429793573
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bones:Head
+    100002: bones:Hip
+    100004: bones:Left_boob
+    100006: bones:Left_feet
+    100008: bones:Left_Hand
+    100010: bones:Left_Heel
+    100012: bones:Left_Index1
+    100014: bones:Left_Index2
+    100016: bones:Left_Index3
+    100018: bones:Left_Index4
+    100020: bones:Left_Knee
+    100022: bones:Left_middlefinger1
+    100024: bones:Left_middlefinger2
+    100026: bones:Left_middlefinger3
+    100028: bones:Left_middlefinger4
+    100030: bones:Left_pink1
+    100032: bones:Left_pink2
+    100034: bones:Left_pink3
+    100036: bones:Left_pink4
+    100038: bones:Left_ringfinger1
+    100040: bones:Left_ringfinger2
+    100042: bones:Left_ringfinger3
+    100044: bones:Left_ringfinger4
+    100046: bones:Left_Thumb1
+    100048: bones:Left_Thumb2
+    100050: bones:Left_Thumb3
+    100052: bones:Left_Thumb4
+    100054: bones:Left_toe
+    100056: bones:Left_Upper_leg
+    100058: bones:Links_Bovenarm
+    100060: bones:Links_Onderarm
+    100062: bones:Lower_Back
+    100064: bones:Middle_Back
+    100066: bones:Neck
+    100068: bones:Rechts_Hand
+    100070: bones:Rechts_Index1
+    100072: bones:Rechts_Index2
+    100074: bones:Rechts_Index3
+    100076: bones:Rechts_Index4
+    100078: bones:Rechts_middlefinger1
+    100080: bones:Rechts_middlefinger2
+    100082: bones:Rechts_middlefinger3
+    100084: bones:Rechts_middlefinger4
+    100086: bones:Rechts_Onderarm
+    100088: bones:Rechts_pink1
+    100090: bones:Rechts_pink2
+    100092: bones:Rechts_pink3
+    100094: bones:Rechts_pink4
+    100096: bones:Rechts_ringfinger1
+    100098: bones:Rechts_ringfinger2
+    100100: bones:Rechts_ringfinger3
+    100102: bones:Rechts_ringfinger4
+    100104: bones:Right_boob
+    100106: bones:Right_feet
+    100108: bones:Right_Heel
+    100110: bones:Right_Knee
+    100112: bones:Right_Thumb1
+    100114: bones:Right_Thumb2
+    100116: bones:Right_Thumb3
+    100118: bones:Right_Thumb4
+    100120: bones:Right_toe
+    100122: bones:Right_Upper_leg
+    100124: bones:Rights_Bovenarm
+    100126: bones:Root
+    100128: bones:Upper_Back
+    100130: Cone001
+    100132: Pivot (invis)
+    100134: //RootNode
+    100136: Troll_met_wapen:polySurface86
+    400000: bones:Head
+    400002: bones:Hip
+    400004: bones:Left_boob
+    400006: bones:Left_feet
+    400008: bones:Left_Hand
+    400010: bones:Left_Heel
+    400012: bones:Left_Index1
+    400014: bones:Left_Index2
+    400016: bones:Left_Index3
+    400018: bones:Left_Index4
+    400020: bones:Left_Knee
+    400022: bones:Left_middlefinger1
+    400024: bones:Left_middlefinger2
+    400026: bones:Left_middlefinger3
+    400028: bones:Left_middlefinger4
+    400030: bones:Left_pink1
+    400032: bones:Left_pink2
+    400034: bones:Left_pink3
+    400036: bones:Left_pink4
+    400038: bones:Left_ringfinger1
+    400040: bones:Left_ringfinger2
+    400042: bones:Left_ringfinger3
+    400044: bones:Left_ringfinger4
+    400046: bones:Left_Thumb1
+    400048: bones:Left_Thumb2
+    400050: bones:Left_Thumb3
+    400052: bones:Left_Thumb4
+    400054: bones:Left_toe
+    400056: bones:Left_Upper_leg
+    400058: bones:Links_Bovenarm
+    400060: bones:Links_Onderarm
+    400062: bones:Lower_Back
+    400064: bones:Middle_Back
+    400066: bones:Neck
+    400068: bones:Rechts_Hand
+    400070: bones:Rechts_Index1
+    400072: bones:Rechts_Index2
+    400074: bones:Rechts_Index3
+    400076: bones:Rechts_Index4
+    400078: bones:Rechts_middlefinger1
+    400080: bones:Rechts_middlefinger2
+    400082: bones:Rechts_middlefinger3
+    400084: bones:Rechts_middlefinger4
+    400086: bones:Rechts_Onderarm
+    400088: bones:Rechts_pink1
+    400090: bones:Rechts_pink2
+    400092: bones:Rechts_pink3
+    400094: bones:Rechts_pink4
+    400096: bones:Rechts_ringfinger1
+    400098: bones:Rechts_ringfinger2
+    400100: bones:Rechts_ringfinger3
+    400102: bones:Rechts_ringfinger4
+    400104: bones:Right_boob
+    400106: bones:Right_feet
+    400108: bones:Right_Heel
+    400110: bones:Right_Knee
+    400112: bones:Right_Thumb1
+    400114: bones:Right_Thumb2
+    400116: bones:Right_Thumb3
+    400118: bones:Right_Thumb4
+    400120: bones:Right_toe
+    400122: bones:Right_Upper_leg
+    400124: bones:Rights_Bovenarm
+    400126: bones:Root
+    400128: bones:Upper_Back
+    400130: Cone001
+    400132: Pivot (invis)
+    400134: //RootNode
+    400136: Troll_met_wapen:polySurface86
+    2300000: Cone001
+    2300002: Pivot (invis)
+    3300000: Cone001
+    3300002: Pivot (invis)
+    4300000: Troll_met_wapen:polySurface86
+    4300002: Pivot (invis)
+    4300004: Cone001
+    7400000: Troll_Walk
+    7400002: Troll_Attack
+    7400004: Troll_Idle
+    7400006: Troll_Hit
+    9500000: //RootNode
+    13700000: Troll_met_wapen:polySurface86
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Troll_Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pivot (invis)
+        weight: 1
+      - path: Pivot (invis)/bones:Root
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet/bones:Left_toe
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Left_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3/bones:Left_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3/bones:Left_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3/bones:Left_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3/bones:Left_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3/bones:Left_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck/bones:Head
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Right_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3/bones:Rechts_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3/bones:Rechts_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3/bones:Rechts_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3/bones:Rechts_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3/bones:Right_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/Cone001
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet/bones:Right_toe
+        weight: 1
+      - path: Troll_met_wapen:polySurface86
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Troll_Attack
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pivot (invis)
+        weight: 1
+      - path: Pivot (invis)/bones:Root
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet/bones:Left_toe
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Left_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3/bones:Left_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3/bones:Left_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3/bones:Left_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3/bones:Left_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3/bones:Left_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck/bones:Head
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Right_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3/bones:Rechts_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3/bones:Rechts_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3/bones:Rechts_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3/bones:Rechts_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3/bones:Right_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/Cone001
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet/bones:Right_toe
+        weight: 1
+      - path: Troll_met_wapen:polySurface86
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Troll_Idle
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pivot (invis)
+        weight: 1
+      - path: Pivot (invis)/bones:Root
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet/bones:Left_toe
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Left_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3/bones:Left_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3/bones:Left_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3/bones:Left_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3/bones:Left_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3/bones:Left_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck/bones:Head
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Right_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3/bones:Rechts_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3/bones:Rechts_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3/bones:Rechts_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3/bones:Rechts_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3/bones:Right_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/Cone001
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet/bones:Right_toe
+        weight: 1
+      - path: Troll_met_wapen:polySurface86
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Troll_Hit
+      takeName: Take 001
+      firstFrame: 91
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pivot (invis)
+        weight: 1
+      - path: Pivot (invis)/bones:Root
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Left_Upper_leg/bones:Left_Knee/bones:Left_Heel/bones:Left_feet/bones:Left_toe
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Left_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Index1/bones:Left_Index2/bones:Left_Index3/bones:Left_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_middlefinger1/bones:Left_middlefinger2/bones:Left_middlefinger3/bones:Left_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_pink1/bones:Left_pink2/bones:Left_pink3/bones:Left_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_ringfinger1/bones:Left_ringfinger2/bones:Left_ringfinger3/bones:Left_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Links_Bovenarm/bones:Links_Onderarm/bones:Left_Hand/bones:Left_Thumb1/bones:Left_Thumb2/bones:Left_Thumb3/bones:Left_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Neck/bones:Head
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Right_boob
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_Index1/bones:Rechts_Index2/bones:Rechts_Index3/bones:Rechts_Index4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_middlefinger1/bones:Rechts_middlefinger2/bones:Rechts_middlefinger3/bones:Rechts_middlefinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_pink1/bones:Rechts_pink2/bones:Rechts_pink3/bones:Rechts_pink4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Rechts_ringfinger1/bones:Rechts_ringfinger2/bones:Rechts_ringfinger3/bones:Rechts_ringfinger4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/bones:Right_Thumb1/bones:Right_Thumb2/bones:Right_Thumb3/bones:Right_Thumb4
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Lower_Back/bones:Middle_Back/bones:Upper_Back/bones:Rights_Bovenarm/bones:Rechts_Onderarm/bones:Rechts_Hand/Cone001
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet
+        weight: 1
+      - path: Pivot (invis)/bones:Root/bones:Hip/bones:Right_Upper_leg/bones:Right_Knee/bones:Right_Heel/bones:Right_feet/bones:Right_toe
+        weight: 1
+      - path: Troll_met_wapen:polySurface86
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

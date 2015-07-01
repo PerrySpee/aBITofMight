@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 94977d6f15b30d849a804bce2a0de3b6
+timeCreated: 1430490564
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Crossbow
+    100002: //RootNode
+    100004: Heupbeen
+    100006: Line002
+    100008: linkerbovenarm
+    100010: linkerbovenbeen
+    100012: linkerhand
+    100014: linkeronderarm
+    100016: linkeronderbeen
+    100018: linkervoet
+    100020: rechterbovenarm
+    100022: rechterbovenbeen
+    100024: rechterhand
+    100026: rechteronderarm
+    100028: rechteronderbeen
+    100030: rechtervoet
+    100032: Ribs
+    100034: Shouderblad
+    100036: Skull
+    400000: Crossbow
+    400002: //RootNode
+    400004: Heupbeen
+    400006: Line002
+    400008: linkerbovenarm
+    400010: linkerbovenbeen
+    400012: linkerhand
+    400014: linkeronderarm
+    400016: linkeronderbeen
+    400018: linkervoet
+    400020: rechterbovenarm
+    400022: rechterbovenbeen
+    400024: rechterhand
+    400026: rechteronderarm
+    400028: rechteronderbeen
+    400030: rechtervoet
+    400032: Ribs
+    400034: Shouderblad
+    400036: Skull
+    2300000: Crossbow
+    2300002: Heupbeen
+    2300004: Line002
+    2300006: linkerbovenarm
+    2300008: linkerbovenbeen
+    2300010: linkerhand
+    2300012: linkeronderarm
+    2300014: linkeronderbeen
+    2300016: linkervoet
+    2300018: rechterbovenarm
+    2300020: rechterbovenbeen
+    2300022: rechterhand
+    2300024: rechteronderarm
+    2300026: rechteronderbeen
+    2300028: rechtervoet
+    2300030: Ribs
+    2300032: Shouderblad
+    2300034: Skull
+    3300000: Crossbow
+    3300002: Heupbeen
+    3300004: Line002
+    3300006: linkerbovenarm
+    3300008: linkerbovenbeen
+    3300010: linkerhand
+    3300012: linkeronderarm
+    3300014: linkeronderbeen
+    3300016: linkervoet
+    3300018: rechterbovenarm
+    3300020: rechterbovenbeen
+    3300022: rechterhand
+    3300024: rechteronderarm
+    3300026: rechteronderbeen
+    3300028: rechtervoet
+    3300030: Ribs
+    3300032: Shouderblad
+    3300034: Skull
+    4300000: Line002
+    4300002: Shouderblad
+    4300004: rechterbovenarm
+    4300006: rechteronderarm
+    4300008: rechterhand
+    4300010: Crossbow
+    4300012: linkerbovenarm
+    4300014: linkeronderarm
+    4300016: linkerhand
+    4300018: Ribs
+    4300020: Skull
+    4300022: Heupbeen
+    4300024: linkerbovenbeen
+    4300026: linkeronderbeen
+    4300028: linkervoet
+    4300030: rechterbovenbeen
+    4300032: rechteronderbeen
+    4300034: rechtervoet
+    7400000: Skeleton_Walk
+    7400002: Skeleton_Fire
+    7400004: Skeleton_Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Skeleton_Walk
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Heupbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen/linkeronderbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen/linkeronderbeen/linkervoet
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen/rechteronderbeen
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen/rechteronderbeen/rechtervoet
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line002/Shouderblad
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm/linkeronderarm
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm/linkeronderarm/linkerhand
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm/rechterhand
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm/rechterhand/Crossbow
+        weight: 1
+      - path: Line002/Shouderblad/Ribs
+        weight: 1
+      - path: Line002/Skull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Fire
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Heupbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen/linkeronderbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen/linkeronderbeen/linkervoet
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen/rechteronderbeen
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen/rechteronderbeen/rechtervoet
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line002/Shouderblad
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm/linkeronderarm
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm/linkeronderarm/linkerhand
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm/rechterhand
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm/rechterhand/Crossbow
+        weight: 1
+      - path: Line002/Shouderblad/Ribs
+        weight: 1
+      - path: Line002/Skull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Idle
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Heupbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen/linkeronderbeen
+        weight: 1
+      - path: Heupbeen/linkerbovenbeen/linkeronderbeen/linkervoet
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen/rechteronderbeen
+        weight: 1
+      - path: Heupbeen/rechterbovenbeen/rechteronderbeen/rechtervoet
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line002/Shouderblad
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm/linkeronderarm
+        weight: 1
+      - path: Line002/Shouderblad/linkerbovenarm/linkeronderarm/linkerhand
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm/rechterhand
+        weight: 1
+      - path: Line002/Shouderblad/rechterbovenarm/rechteronderarm/rechterhand/Crossbow
+        weight: 1
+      - path: Line002/Shouderblad/Ribs
+        weight: 1
+      - path: Line002/Skull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

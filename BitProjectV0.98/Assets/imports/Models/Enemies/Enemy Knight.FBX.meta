@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: d4fe2dd486c69e54c93a25c00909e1d9
+timeCreated: 1428653664
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: Feathers004
+    100006: hoofd
+    100008: Knight
+    100010: Knight 1
+    100012: L_bovenarm
+    100014: L_bovenbeen
+    100016: L_hand
+    100018: L_heupbeen
+    100020: L_onderarm
+    100022: L_vingers
+    100024: Line002
+    100026: R_bovenarm
+    100028: R_bovenbeen
+    100030: R_hand
+    100032: R_heupbeen
+    100034: R_onderarm
+    100036: R_vingers
+    100038: root
+    100040: Shield
+    100042: shoulder pad_left
+    100044: shoulder pad_Right
+    100046: Sword
+    100048: torso
+    400000: Box001
+    400002: //RootNode
+    400004: Feathers004
+    400006: hoofd
+    400008: Knight
+    400010: Knight 1
+    400012: L_bovenarm
+    400014: L_bovenbeen
+    400016: L_hand
+    400018: L_heupbeen
+    400020: L_onderarm
+    400022: L_vingers
+    400024: Line002
+    400026: R_bovenarm
+    400028: R_bovenbeen
+    400030: R_hand
+    400032: R_heupbeen
+    400034: R_onderarm
+    400036: R_vingers
+    400038: root
+    400040: Shield
+    400042: shoulder pad_left
+    400044: shoulder pad_Right
+    400046: Sword
+    400048: torso
+    2300000: Box001
+    2300002: Feathers004
+    2300004: Line002
+    2300006: Shield
+    2300008: shoulder pad_left
+    2300010: shoulder pad_Right
+    2300012: Sword
+    3300000: Box001
+    3300002: Feathers004
+    3300004: Line002
+    3300006: Shield
+    3300008: shoulder pad_left
+    3300010: shoulder pad_Right
+    3300012: Sword
+    4300000: Knight
+    4300002: Box001
+    4300004: Shield
+    4300006: shoulder pad_left
+    4300008: Feathers004
+    4300010: Sword
+    4300012: shoulder pad_Right
+    4300014: Line002
+    7400000: Enemy_Knight_StatuePose
+    7400002: Enemy_Knight_Walk
+    7400004: Enemy_Knight_Slash
+    7400006: Enemy_Knight_Idle
+    9500000: //RootNode
+    13700000: Knight 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Enemy_Knight_StatuePose
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/root
+        weight: 1
+      - path: Box001/root/L_heupbeen
+        weight: 1
+      - path: Box001/root/L_heupbeen/L_bovenbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen/R_bovenbeen
+        weight: 1
+      - path: Box001/root/torso
+        weight: 1
+      - path: Box001/root/torso/hoofd
+        weight: 1
+      - path: Box001/root/torso/hoofd/Feathers004
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/L_vingers
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/Shield
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/shoulder pad_left
+        weight: 1
+      - path: Box001/root/torso/Line002
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers/Sword
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/shoulder pad_Right
+        weight: 1
+      - path: Knight
+        weight: 1
+      - path: Knight/Knight 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Enemy_Knight_Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/root
+        weight: 1
+      - path: Box001/root/L_heupbeen
+        weight: 1
+      - path: Box001/root/L_heupbeen/L_bovenbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen/R_bovenbeen
+        weight: 1
+      - path: Box001/root/torso
+        weight: 1
+      - path: Box001/root/torso/hoofd
+        weight: 1
+      - path: Box001/root/torso/hoofd/Feathers004
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/L_vingers
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/Shield
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/shoulder pad_left
+        weight: 1
+      - path: Box001/root/torso/Line002
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers/Sword
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/shoulder pad_Right
+        weight: 1
+      - path: Knight
+        weight: 1
+      - path: Knight/Knight 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Enemy_Knight_Slash
+      takeName: Take 001
+      firstFrame: 134
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/root
+        weight: 1
+      - path: Box001/root/L_heupbeen
+        weight: 1
+      - path: Box001/root/L_heupbeen/L_bovenbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen/R_bovenbeen
+        weight: 1
+      - path: Box001/root/torso
+        weight: 1
+      - path: Box001/root/torso/hoofd
+        weight: 1
+      - path: Box001/root/torso/hoofd/Feathers004
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/L_vingers
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/Shield
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/shoulder pad_left
+        weight: 1
+      - path: Box001/root/torso/Line002
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers/Sword
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/shoulder pad_Right
+        weight: 1
+      - path: Knight
+        weight: 1
+      - path: Knight/Knight 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Enemy_Knight_Idle
+      takeName: Take 001
+      firstFrame: 67
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/root
+        weight: 1
+      - path: Box001/root/L_heupbeen
+        weight: 1
+      - path: Box001/root/L_heupbeen/L_bovenbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen
+        weight: 1
+      - path: Box001/root/R_heupbeen/R_bovenbeen
+        weight: 1
+      - path: Box001/root/torso
+        weight: 1
+      - path: Box001/root/torso/hoofd
+        weight: 1
+      - path: Box001/root/torso/hoofd/Feathers004
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/L_vingers
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/L_onderarm/L_hand/Shield
+        weight: 1
+      - path: Box001/root/torso/L_bovenarm/shoulder pad_left
+        weight: 1
+      - path: Box001/root/torso/Line002
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/R_onderarm/R_hand/R_vingers/Sword
+        weight: 1
+      - path: Box001/root/torso/R_bovenarm/shoulder pad_Right
+        weight: 1
+      - path: Knight
+        weight: 1
+      - path: Knight/Knight 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
